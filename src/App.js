@@ -97,7 +97,7 @@ function Points() {
       <pointsMaterial
         attach="material"
         map={imgTex}
-        color={0xfface4}
+        color={0xace4ff}
         size={0.2}
         sizeAttenuation
         transparent={false}
@@ -112,7 +112,7 @@ function AnimationCanvas() {
   return (
     <Canvas
       colorManagment={false}
-      camera={{ position: [100, 120, 50], fov: 40 }}
+      camera={{ position: [60, 90, 50], fov: 75 }}
     >
       <Suspense fallback={null}>
         <Points />
